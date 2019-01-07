@@ -5,7 +5,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class TreeMapDemo {
+public class MapDemo {
   
   public static void main(String[] args)
   {
