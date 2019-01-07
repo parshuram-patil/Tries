@@ -1,6 +1,7 @@
 package com.cs.collection;
 
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
@@ -9,9 +10,9 @@ public class MapDemo {
   
   public static void main(String[] args)
   {
-    TreeMap<String, String> map = new TreeMap<>();
-    //HashMap<String, String> map = new HashMap<>();
-    //LinkedHashMap<String, String> map = new LinkedHashMap<>();
+    Map<String, String> map = new TreeMap<>();
+    //Map<String, String> map = new HashMap<>();
+    //Map<String, String> map = new LinkedHashMap<>();
     map.put("a", "a");
     map.put("1", "1");
     map.put("3", "3");
