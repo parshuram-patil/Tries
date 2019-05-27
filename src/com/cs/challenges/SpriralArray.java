@@ -38,7 +38,7 @@ public class SpriralArray {
 	}
 
 	public static void main(String args[]) {
-		System.out.println("Printing Spiral Array");
+		System.out.println("\t\tPrinting Spiral Array\n\n");
 
 		int noOfRow = 3;
 		int noOfColumn = 6;
