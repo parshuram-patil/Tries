@@ -1,5 +1,6 @@
 package com.cs.time;
 
+import java.time.LocalTime;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -18,5 +19,10 @@ public class GetMidnightTime {
         System.out.println("Current Millis --> " + System.currentTimeMillis());
         System.out.println("Time --> " + new Date(c.getTimeInMillis()));
         System.out.println("Calculated Time --> " + new Date(System.currentTimeMillis() + howMany));
+        
+        LocalTime now = LocalTime.now();
+        System.out.println(now.getHour());
+        
+        System.err.println();
 	}
 }
