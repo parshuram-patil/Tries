@@ -21,7 +21,7 @@ public class GetMidnightTime {
         System.out.println("Calculated Time --> " + new Date(System.currentTimeMillis() + howMany));
         
         LocalTime now = LocalTime.now();
-        System.out.println(now.getHour());
+        System.out.println(23 - now.getHour() + 1);
         
         System.err.println();
 	}
