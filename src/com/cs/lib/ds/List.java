@@ -1,4 +1,4 @@
-package com.cs.structure;
+package com.cs.lib.ds;
 
 public class List {
   

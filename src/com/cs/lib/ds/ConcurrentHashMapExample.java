@@ -1,4 +1,4 @@
-package com.cs.structure;
+package com.cs.lib.ds;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package com.cs.structure;
+package com.cs.lib.ds;
 
 // Java implementation of iterative Binary Search 
 class BinarySearch 
