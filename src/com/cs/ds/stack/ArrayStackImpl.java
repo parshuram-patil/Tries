@@ -1,7 +1,5 @@
 package com.cs.ds.stack;
 
-import java.util.ArrayList;
-
 class ArrayStackImpl {
 	
 	public static void main(String[] args) throws StackOperationExcetion {
